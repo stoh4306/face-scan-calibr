@@ -1,0 +1,22 @@
+DATA_PATH				= .  						# working folder which should have depthmap and project data
+DEPTHMAP_SIZE_FILE      = depthmap.size	
+
+DEPTHMAP_START_FRAME	= 0							# start frame to load data
+DEPTHMAP_FINISH_FRAME	= 0						# end frame to load data
+DEPTHMAP_FILE_PADDINGS  = 4							# number of digits of frame in depthmap file name
+DEPTHMAP_FILE_EXT		= depthmap					# depthmap file extension
+
+PROJECTION_FILE_PADDINGS = 4						# number of digits of frame in projection file name
+PROJECTION_FILE_EXT		 = proj						# projection file extension
+
+FUSED_BOUNDING_BOX_SCALE = 1.03						# bounding box scale for the world voxel data
+VOXEL_RESOLUTION		 = 256 256 256  			# voxel grid resolution
+SURF_VOXEL_BAND			 = 3.0						# cell depth of the band around the surface to compute the voxel data
+
+DEPTH_SMOOTH_FACTOR	     = 1.0						# smoothing length factor(default:1.0). Higher value produces smoother surface with more time
+
+FRAME					 = 0 0					# frame range to process
+
+GPU_COMPUTING			 = 0						# 0: CPU , 1: GPU	
+
+OUTPUT_VOXEL_DATA_FILE   = fused_world.vox			# file name of the output voxel data

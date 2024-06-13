@@ -1,0 +1,1 @@
+compute_tsdf.exe reconst_h0_trimmed_binary_0021.ply k.txt cam_pose.txt 2448 2048 256 8 1
