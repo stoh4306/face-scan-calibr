@@ -1,0 +1,1 @@
+marching_cubes_cuda.exe tsdf.vox outmesh.obj 0 1 1
